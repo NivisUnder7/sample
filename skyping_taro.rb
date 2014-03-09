@@ -19,11 +19,10 @@ loop do
 	    chat.post "カナちゃんのこと呼んだし？" if m.body.include? "天狗王"
 	    chat.post "http://wikiwiki.jp/imgtank/?Covenanter" if m.body.include? "かなちゃん"
 			
-	    chat.post "popopopong"  if message.user ="magi_hubot" 
+	    #chat.post "popopopong"  if message.user ="magi_hubot" &&
 
 		last_id = m.id
-		
-		end
-	end
-	sleep 1
+    end
+  end
+  sleep 1
 end
